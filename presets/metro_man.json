@@ -1,0 +1,44 @@
+{
+  "network_name": "FinTech Metro Colocation MAN",
+  "network_type": "metro_man",
+  "num_sites": 3,
+  "total_endpoints": 450,
+  "link_distance_meters": 22000.0,
+  "redundancy_required": true,
+  "root_cidr": "172.16.0.0/16",
+  "requested_medium": null,
+  "has_cloud_vpc": false,
+  "has_external_as": false,
+  "local_as": 65100,
+  "peer_as": null,
+  "qos_enabled": true,
+  "ipsec_required": false,
+  "notes": "HQ + 2 Remote Colocation Facilities (15-35km inter-site distances). OS2 Single-Mode Fiber, 10GBASE-ER transceivers, Carrier Ethernet EVPL, Sub-5ms QoS latency SLA, dual-homed failover topology.",
+  "subnets": [
+    {
+      "name": "High_Frequency_Trading_Colo",
+      "hosts": 200,
+      "vlan_id": 100
+    },
+    {
+      "name": "Headquarters_Corporate_LAN",
+      "hosts": 140,
+      "vlan_id": 110
+    },
+    {
+      "name": "Disaster_Recovery_Replication",
+      "hosts": 60,
+      "vlan_id": 120
+    },
+    {
+      "name": "Remote_Branch_Office",
+      "hosts": 35,
+      "vlan_id": 130
+    },
+    {
+      "name": "InterSite_Transit_P2P",
+      "hosts": 15,
+      "vlan_id": 140
+    }
+  ]
+}

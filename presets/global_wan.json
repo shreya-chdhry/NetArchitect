@@ -1,0 +1,44 @@
+{
+  "network_name": "Global Enterprise IoT WAN",
+  "network_type": "global_wan",
+  "num_sites": 5,
+  "total_endpoints": 2000,
+  "link_distance_meters": 55000.0,
+  "redundancy_required": true,
+  "root_cidr": "10.0.0.0/8",
+  "requested_medium": null,
+  "has_cloud_vpc": true,
+  "has_external_as": true,
+  "local_as": 65001,
+  "peer_as": 64512,
+  "qos_enabled": false,
+  "ipsec_required": true,
+  "notes": "4 Global Cities (NYC, London, Tokyo, Singapore) + AWS Cloud VPC. 2000 IoT / scanners / edge devices. OS2 SMF, IPsec VPN overlay, Multi-Area OSPF IGP, eBGP Cloud Peering, Route Summarization.",
+  "subnets": [
+    {
+      "name": "NYC_Hub_and_Core_Operations",
+      "hosts": 750,
+      "vlan_id": 10
+    },
+    {
+      "name": "London_Regional_Gateway",
+      "hosts": 500,
+      "vlan_id": 20
+    },
+    {
+      "name": "Tokyo_Logistics_and_Scanners",
+      "hosts": 380,
+      "vlan_id": 30
+    },
+    {
+      "name": "Singapore_Distribution_IoT",
+      "hosts": 250,
+      "vlan_id": 40
+    },
+    {
+      "name": "Cloud_VPC_Analytics_Transit",
+      "hosts": 120,
+      "vlan_id": 50
+    }
+  ]
+}

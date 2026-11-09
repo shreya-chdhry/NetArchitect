@@ -1,0 +1,4 @@
+# NetArchitect: Recommendation & Config Engine
+# Dependencies for Computer Networks Mini-Project (CIC-307)
+
+pytest>=7.0.0

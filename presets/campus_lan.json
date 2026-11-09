@@ -1,0 +1,44 @@
+{
+  "network_name": "University Campus LAN",
+  "network_type": "campus_lan",
+  "num_sites": 3,
+  "total_endpoints": 1600,
+  "link_distance_meters": 250.0,
+  "redundancy_required": true,
+  "root_cidr": "10.10.0.0/16",
+  "requested_medium": null,
+  "has_cloud_vpc": false,
+  "has_external_as": false,
+  "local_as": 65001,
+  "peer_as": null,
+  "qos_enabled": false,
+  "ipsec_required": false,
+  "notes": "3 Buildings (Engineering, Science, Library) connected via OM4 fiber backbone (<400m); horizontal access via Cat6a (<100m). PoE+ APs, 802.1Q VLANs, RSTP, Single-Area OSPF.",
+  "subnets": [
+    {
+      "name": "Engineering_Labs",
+      "hosts": 600,
+      "vlan_id": 10
+    },
+    {
+      "name": "Student_WiFi_and_Hostels",
+      "hosts": 450,
+      "vlan_id": 30
+    },
+    {
+      "name": "Faculty_and_Classrooms",
+      "hosts": 350,
+      "vlan_id": 20
+    },
+    {
+      "name": "Administration_and_Finance",
+      "hosts": 120,
+      "vlan_id": 40
+    },
+    {
+      "name": "Campus_IoT_and_Surveillance",
+      "hosts": 80,
+      "vlan_id": 50
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 # NetArchitect: Recommendation & Config Engine
 
-**Educational Network Architecture Recommendation & Configuration Prototype**  
+**Educational Network Architecture Recommendation & Configuration Prototype** 
+**MADE BY**: SHREYA CHAUDHARY 09414802724 • KHUSHI JAIN 06914813124
 **Course Code**: CIC-307 • Computer Networks Mini-Project  
 **Evaluation Weight**: 100 Points  
 **Technologies**: Python 3.10+, Cisco IOS Software, pytest  

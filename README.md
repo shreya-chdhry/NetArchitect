@@ -109,7 +109,14 @@ mini-project-cn/
 │   └── ai_audit_log.md        # AI code auditing report (2 concrete bugs, packet analysis)
 │
 └── screenshots/
-    └── README.md              # 6 Mandatory screenshots checklist & Packet Tracer guide
+    ├── 01_main_cli_menu.png
+    ├── 02_vlsm_output_A.png
+    ├── 02_vlsm_output_B.png
+    ├── 03_pytest_results.png
+    ├── 04_campus_topology_cisco_packet_tracer.png
+    ├── 05_metro_topology_cisco_packet_tracer.png
+    ├── 06_global_wan_topology_cisco_packet_tracer.png
+    └── README.md              # 6 Mandatory screenshots & Packet Tracer guide
 ```
 
 ---
